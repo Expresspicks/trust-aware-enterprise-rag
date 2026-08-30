@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+config.py
+*.key
+
+# Mac files
+.DS_Store
+*/.DS_Store
+
+# Logs
+*.log
+
+# Generated vectorstore/cache files
+vectorstore/
+*.index
+*.pkl
+
+# Backup/dev files
+*_backup.py
+*_test.py
+test_*.py
+evaluation_agent_test.py
+
+# Old presentation/document files
+*.pptx
+*.docx
+
+# Old/non-final evaluation workbooks
+knowledgebase/trust_aware_sql_rag_evaluation_workbook.xlsx
+knowledgebase/evaluation_results.xlsx
+
+# Non-essential knowledgebase supporting files
+knowledgebase/architecture.drawio.xml
+knowledgebase/evaluation_results.xlsx
+knowledgebase/project_outline.txt
+
+# Generated evaluation images and screenshots
+evaluation_outputs/
+knowledgebase/screenshots/
+trust_simulation_graphs/

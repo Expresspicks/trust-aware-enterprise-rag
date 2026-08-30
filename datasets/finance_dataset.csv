@@ -1,0 +1,73 @@
+id,year,month,sales,remarks,no_of_customer,ts,region
+407,2025,January,63800.40,"Strong start with stable demand",585,"2026-05-14 21:50:22",VIC
+408,2025,February,61250.75,"Slight seasonal drop",560,"2026-05-14 21:50:22",VIC
+409,2025,March,66740.20,"Improved customer activity",610,"2026-05-14 21:50:22",VIC
+410,2025,April,64590.30,"Stable regional sales",595,"2026-05-14 21:50:22",VIC
+411,2025,May,68200.85,"Higher customer engagement",625,"2026-05-14 21:50:22",VIC
+412,2025,June,70450.60,"Strong mid-year sales",645,"2026-05-14 21:50:22",VIC
+413,2025,July,72100.95,"High retail demand",660,"2026-05-14 21:50:22",VIC
+414,2025,August,69750.35,"Moderate slowdown",635,"2026-05-14 21:50:22",VIC
+415,2025,September,73520.80,"Growth in repeat customers",675,"2026-05-14 21:50:22",VIC
+416,2025,October,75200.10,"Peak monthly performance",690,"2026-05-14 21:50:22",VIC
+417,2025,November,74180.55,"Consistent customer activity",680,"2026-05-14 21:50:22",VIC
+418,2025,December,77340.90,"Strong year-end result",710,"2026-05-14 21:50:22",VIC
+419,2025,January,71800.25,"Strong business demand",590,"2026-05-14 21:50:22",NSW
+420,2025,February,69450.70,"Stable customer engagement",575,"2026-05-14 21:50:22",NSW
+421,2025,March,74200.35,"High monthly growth",610,"2026-05-14 21:50:22",NSW
+422,2025,April,73150.90,"Consistent sales performance",600,"2026-05-14 21:50:22",NSW
+423,2025,May,76800.45,"Increased regional activity",630,"2026-05-14 21:50:22",NSW
+424,2025,June,79450.20,"Strong mid-year demand",650,"2026-05-14 21:50:22",NSW
+425,2025,July,81200.75,"High customer retention",665,"2026-05-14 21:50:22",NSW
+426,2025,August,80340.60,"Stable high performance",655,"2026-05-14 21:50:22",NSW
+427,2025,September,83650.95,"Excellent sales growth",690,"2026-05-14 21:50:22",NSW
+428,2025,October,85900.30,"Peak sales performance",710,"2026-05-14 21:50:22",NSW
+429,2025,November,84670.80,"Strong repeat purchases",700,"2026-05-14 21:50:22",NSW
+430,2025,December,88120.55,"Best year-end sales",725,"2026-05-14 21:50:22",NSW
+431,2025,January,76950.35,"Tourism-driven growth",550,"2026-05-14 21:50:22",QLD
+432,2025,February,74800.40,"Seasonal variation observed",540,"2026-05-14 21:50:22",QLD
+433,2025,March,79250.75,"High average transaction value",570,"2026-05-14 21:50:22",QLD
+434,2025,April,78100.25,"Stable but volatile demand",560,"2026-05-14 21:50:22",QLD
+435,2025,May,82500.80,"Rapid customer spending growth",590,"2026-05-14 21:50:22",QLD
+436,2025,June,85450.60,"Strong seasonal demand",610,"2026-05-14 21:50:22",QLD
+437,2025,July,87900.95,"Very high regional sales",630,"2026-05-14 21:50:22",QLD
+438,2025,August,86150.30,"Slight monthly fluctuation",620,"2026-05-14 21:50:22",QLD
+439,2025,September,90250.45,"Strong customer spending",650,"2026-05-14 21:50:22",QLD
+440,2025,October,93600.70,"Highest monthly regional sales",675,"2026-05-14 21:50:22",QLD
+441,2025,November,91800.35,"High but volatile sales",665,"2026-05-14 21:50:22",QLD
+442,2025,December,95750.90,"Strong year-end tourism demand",700,"2026-05-14 21:50:22",QLD
+443,2026,January,78200.15,"Stable new year sales",715,"2026-05-14 21:50:22",VIC
+444,2026,February,76150.40,"Small seasonal decline",700,"2026-05-14 21:50:22",VIC
+445,2026,March,80120.85,"Improved monthly performance",735,"2026-05-14 21:50:22",VIC
+446,2026,April,78900.35,"Consistent customer base",725,"2026-05-14 21:50:22",VIC
+447,2026,May,82350.75,"Strong customer engagement",750,"2026-05-14 21:50:22",VIC
+448,2026,June,84600.50,"High mid-year performance",770,"2026-05-14 21:50:22",VIC
+449,2026,July,86250.90,"Strong retail activity",785,"2026-05-14 21:50:22",VIC
+450,2026,August,85100.30,"Stable sales activity",775,"2026-05-14 21:50:22",VIC
+451,2026,September,88950.65,"Growth in customer visits",805,"2026-05-14 21:50:22",VIC
+452,2026,October,91200.80,"Peak sales period",825,"2026-05-14 21:50:22",VIC
+453,2026,November,89950.25,"Slight decline after peak",815,"2026-05-14 21:50:22",VIC
+454,2026,December,93450.95,"Strong year-end performance",845,"2026-05-14 21:50:22",VIC
+455,2026,January,89450.70,"Strong start with consistent demand",735,"2026-05-14 21:50:22",NSW
+456,2026,February,87200.15,"Stable but slightly lower activity",720,"2026-05-14 21:50:22",NSW
+457,2026,March,91850.60,"High commercial demand",755,"2026-05-14 21:50:22",NSW
+458,2026,April,90400.45,"Consistent monthly performance",745,"2026-05-14 21:50:22",NSW
+459,2026,May,94750.90,"Strong growth across market",780,"2026-05-14 21:50:22",NSW
+460,2026,June,97600.35,"High mid-year sales",800,"2026-05-14 21:50:22",NSW
+461,2026,July,100250.80,"Excellent customer retention",820,"2026-05-14 21:50:22",NSW
+462,2026,August,99100.55,"Stable high performance",810,"2026-05-14 21:50:22",NSW
+463,2026,September,103400.20,"Strong customer demand",845,"2026-05-14 21:50:22",NSW
+464,2026,October,106250.75,"Peak regional sales",865,"2026-05-14 21:50:22",NSW
+465,2026,November,104800.40,"Consistent high sales",855,"2026-05-14 21:50:22",NSW
+466,2026,December,108950.95,"Best year-end result",890,"2026-05-14 21:50:22",NSW
+467,2026,January,96500.35,"Tourism and retail growth",690,"2026-05-14 21:50:22",QLD
+468,2026,February,94800.20,"Seasonal fluctuation present",675,"2026-05-14 21:50:22",QLD
+469,2026,March,99250.85,"High-value customer transactions",710,"2026-05-14 21:50:22",QLD
+470,2026,April,98150.40,"Volatile but strong sales",700,"2026-05-14 21:50:22",QLD
+471,2026,May,102800.75,"High customer spending growth",735,"2026-05-14 21:50:22",QLD
+472,2026,June,106450.60,"Strong tourism demand",760,"2026-05-14 21:50:22",QLD
+473,2026,July,109750.95,"Very high regional performance",785,"2026-05-14 21:50:22",QLD
+474,2026,August,108200.30,"Slight monthly volatility",775,"2026-05-14 21:50:22",QLD
+475,2026,September,112900.45,"Strong customer spending",810,"2026-05-14 21:50:22",QLD
+476,2026,October,116500.70,"Highest regional monthly sales",835,"2026-05-14 21:50:22",QLD
+477,2026,November,114950.35,"High but unstable sales",825,"2026-05-14 21:50:22",QLD
+478,2026,December,119800.90,"Strong year-end seasonal demand",860,"2026-05-14 21:50:22",QLD

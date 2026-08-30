@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Finance AI Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Finance AI</h2>
+
+        <p class="user-info">
+            {{ session.username }} <br>
+            <small>{{ session.role_name }} | {{ session.region }}</small>
+        </p>
+
+        <!-- <a href="#">Home</a>
+        <a href="#">Sales</a>
+        <a href="#">Expenses</a>
+        <a href="#">Help</a> -->
+
+        <hr>
+        <a href="{{ url_for('clear_chat') }}">Clear Chat</a>
+        <a href="{{ url_for('logout') }}" class="logout-link">Logout</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="chat-container" id="chat">
+            {% if chat_history %}
+
+            {% for chat in chat_history %}
+
+            <div class="message user-msg">
+                <div class="chat-icon user-icon">👤 {{ chat.question }}</div>
+            </div>
+
+            <div class="message bot-msg">
+                <div class="chat-icon bot-icon">🤖 {{ chat.answer }}</div>
+
+                <details class="debug-box">
+                    <summary>View trust and retrieval details</summary>
+
+                    <h4>User and Route Context</h4>
+                    <p><strong>Route Mode:</strong> {{ chat.mode }}</p>
+                    <p><strong>User Role:</strong> {{ chat.role_name }}</p>
+                    <p><strong>User Region:</strong> {{ chat.region }}</p>
+                    <p><strong>Access Allowed:</strong> {{ chat.access_allowed }}</p>
+                    <p><strong>Access Reason:</strong> {{ chat.access_reason }}</p>
+
+                    <h4>Trust Scores</h4>
+                    <p><strong>Total Trust Score:</strong> {{ chat.trust_score }}</p>
+                    <p><strong>Contextual Trust:</strong> {{ chat.contextual_trust }}</p>
+                    <p><strong>Behavioural Trust:</strong> {{ chat.behavioural_trust }}</p>
+                    <p><strong>Evidence Trust:</strong> {{ chat.evidence_trust }}</p>
+
+                    <h4>Trust Reasons</h4>
+                    <p><strong>CT Reason:</strong> {{ chat.ct_reason }}</p>
+                    <p><strong>BT Reason:</strong> {{ chat.bt_reason }}</p>
+                    <p><strong>ET Reason:</strong> {{ chat.et_reason }}</p>
+
+                    <h4>Behaviour Similarity Details</h4>
+                    <p><strong>Allowed Similarity:</strong> {{ chat.allowed_similarity }}</p>
+                    <p><strong>Restricted Similarity:</strong> {{ chat.restricted_similarity }}</p>
+                    <p><strong>Suspicious Similarity:</strong> {{ chat.suspicious_similarity }}</p>
+
+                    <p><strong>Matched Allowed Pattern:</strong></p>
+                    <pre>{{ chat.matched_allowed_pattern }}</pre>
+
+                    <p><strong>Matched Restricted Pattern:</strong></p>
+                    <pre>{{ chat.matched_restricted_pattern }}</pre>
+
+                    <p><strong>Matched Suspicious Pattern:</strong></p>
+                    <pre>{{ chat.matched_suspicious_pattern }}</pre>
+
+                    <h4>Session Behaviour</h4>
+                    <p><strong>Total Questions:</strong> {{ chat.total_questions }}</p>
+                    <p><strong>Blocked Attempts:</strong> {{ chat.blocked_attempts }}</p>
+                    <p><strong>Sensitive Attempts:</strong> {{ chat.sensitive_attempts }}</p>
+
+                    <h4>SQL Evidence</h4>
+                    <p><strong>Generated SQL:</strong></p>
+                    <pre>{{ chat.sql_query }}</pre>
+
+                    <p><strong>SQL Result:</strong></p>
+                    <pre>{{ chat.sql_result }}</pre>
+
+                    <h4>RAG Evidence</h4>
+                    <p><strong>RAG Similarity:</strong> {{ chat.rag_similarity }}</p>
+
+                    <p><strong>RAG Context:</strong></p>
+                    <pre>{{ chat.rag_context }}</pre>
+                    <p><strong>Router Reason:</strong> {{ chat.router_reason }}</p>
+
+                    <p><strong>SQL Task:</strong></p>
+                    <pre>{{ chat.sql_task }}</pre>
+
+                    <p><strong>RAG Task:</strong></p>
+                    <pre>{{ chat.rag_task }}</pre>
+                </details>
+            </div>
+
+            {% endfor %}
+
+            {% else %}
+
+            <div class="message bot-msg">
+                Ask me anything about sales or expenses.
+            </div>
+
+            {% endif %}
+        </div>
+
+        <form method="POST" action="{{ url_for('chat') }}">
+            <input type="text" name="question" placeholder="Type your question..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
