@@ -1,4 +1,4 @@
-# Hybrid Trust-Aware Enterprise SQL-RAG Framework
+# Hybrid Trust-Aware Enterprise RAG Framework
 
 This repository contains a proof-of-concept hybrid trust-aware enterprise retrieval framework. The system combines MySQL-based structured retrieval, PDF-based RAG retrieval, LLM query routing, role and region-based access checking, and CT-BT-ET trust scoring for controlled enterprise question answering.
 
