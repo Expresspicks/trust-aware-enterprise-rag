@@ -1,4 +1,5 @@
 from flask import Flask, request, redirect, session, url_for, render_template
+from config import FLASK_SECRET_KEY
 import os
 from sql_agent_graph import build_agent, get_llm
 from query_router import route_question_llm
@@ -9,7 +10,7 @@ from trust.ct import calculate_contextual_trust
 from trust.et import calculate_evidence_trust
 
 app = Flask(__name__)
-app.secret_key = ""
+app.secret_key = FLASK_SECRET_KEY
 
 agent = build_agent()
 

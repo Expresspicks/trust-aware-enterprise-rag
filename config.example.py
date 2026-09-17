@@ -1,3 +1,5 @@
+FLASK_SECRET_KEY = "replace-with-your-own-secret"
+
 DB_CONFIG = {
     "host": "localhost",
     "user": "root",
