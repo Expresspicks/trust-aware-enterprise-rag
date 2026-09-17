@@ -211,3 +211,26 @@ A safe example configuration file is provided as:
 ```text
 config.example.py
 ```
+
+## Reproducing the 40-Case Evaluation
+
+The repository includes the canonical 40-case evaluation workbook:
+
+`trust_aware_sql_rag_evaluation_workbook.xlsx`
+
+The `Question_Record` sheet contains the recorded test cases, including the user role, dataset, service request, expected route, expected decision, actual decision, trust scores, and result status.
+
+The evaluation script:
+
+`evaluation_agent_test.py`
+
+can be used in two ways.
+
+### 1. Reproduce Graphs from the Recorded Evaluation
+
+To regenerate the evaluation graphs directly from the existing `Question_Record` results
+
+```bash
+python evaluation_agent_test.py \
+  --workbook trust_aware_sql_rag_evaluation_workbook.xlsx \
+  --reference-graphs-only
