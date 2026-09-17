@@ -9,7 +9,7 @@ from trust.ct import calculate_contextual_trust
 from trust.et import calculate_evidence_trust
 
 app = Flask(__name__)
-app.secret_key = "nwXV-f[80#8G!rW%T"
+app.secret_key = ""
 
 agent = build_agent()
 
