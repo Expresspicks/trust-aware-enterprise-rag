@@ -224,11 +224,7 @@ The evaluation script:
 
 `evaluation_agent_test.py`
 
-can be used in two ways.
-
-### 1. Reproduce Graphs from the Recorded Evaluation
-
-To regenerate the evaluation graphs directly from the existing `Question_Record` results
+can be used by to regenerate the evaluation graphs directly from the existing `Question_Record` results
 
 ```bash
 python evaluation_agent_test.py \
