@@ -44,3 +44,8 @@ knowledgebase/project_outline.txt
 evaluation_outputs/
 knowledgebase/screenshots/
 trust_simulation_graphs/
+
+# Reproducibility/evaluation files included for reviewers
+!evaluation_agent_test.py
+!trust_aware_sql_rag_evaluation_workbook.xlsx
+.vscode/
